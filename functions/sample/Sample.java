@@ -24,6 +24,7 @@ public class Sample implements CatalystAdvancedIOHandler {
 			LOGGER.info("code block not null");
 			String text=request.getParameter("code-block");
 			response.setContentType("image/jpeg");
+			/* response.setContentType("application/png"); */
 			OutputStream os =response.getOutputStream(); 
 			
 			if(request.getParameter("type").equalsIgnoreCase("code128"))
