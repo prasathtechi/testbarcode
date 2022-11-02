@@ -1,0 +1,29 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "3009000000007006",
+      "name": "barcode",
+      "domain": {
+        "id": "50011098952",
+        "name": "barcode-60017598964.development"
+      },
+      "env": [
+        {
+          "idx": 1,
+          "id": "60017598964",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}
